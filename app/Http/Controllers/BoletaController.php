@@ -22,7 +22,7 @@ class BoletaController extends Controller
     public function imprimir()
     {
         
-        $printerId = '0635d7d9-b655-a976-e597-855d1a06739c';
+        $printerId = '9d026cf7-d541-4843-1720-763a3b2fc33c';
         GoogleCloudPrint::asHtml()
         ->url('https://opensource.org/licenses/MIT')
         ->printer($printerId)
