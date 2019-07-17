@@ -15,7 +15,7 @@ class BoletaController extends Controller
      */
     public function index()
     {
-        return 'ejemplo';
+        
         return View('imprimiendo');
     }
 
@@ -27,7 +27,7 @@ class BoletaController extends Controller
         ->url('https://opensource.org/licenses/MIT')
         ->printer($printerId)
         ->send();
-        return back()->withInput();
+        return View('imprimiendo');
     }
     /**
      * Show the form for creating a new resource.
