@@ -16,18 +16,48 @@ class BoletaController extends Controller
     public function index()
     {
         
-        return View('imprimiendo');
+        return View('index');
     }
-
-    public function imprimir()
+    /**
+     * Printing HTML from an URL
+     */
+    public function imprimirPagina()
     {
         
         $printerId = '2147c452-5582-a70c-a44d-a65f8fc99757';
         GoogleCloudPrint::asHtml()
-        ->url('https://opensource.org/licenses/MIT')
+        ->url('https://github.com/bnbwebexpertise/laravel-google-cloud-print')
         ->printer($printerId)
         ->send();
-        return View('imprimiendo');
+        return View('index');
+    }
+    /**
+     * Printing page 3 to 10 of a PDF from a local file
+     */
+    public function imprimirPdf()
+    {
+        
+        $printerId = '2147c452-5582-a70c-a44d-a65f8fc99757';
+        GoogleCloudPrint::asPdf()
+        ->file('storage/app/public/iso-9001.pdf')
+        ->range(2, 3)
+        ->printer($printerId)
+        ->send();
+        return View('index');
+    }
+    /**
+     * Printing plain text with a 1cm margin on each sides using
+     */
+    public function imprimirTexto()
+    {
+        
+        $printerId = '2147c452-5582-a70c-a44d-a65f8fc99757';
+        GoogleCloudPrint::asText()
+        ->content('Ejemplo de texto')
+        ->printer($printerId)
+        ->marginsInCentimeters(1, 1, 1, 1)
+        ->send();
+        return View('index');
     }
     /**
      * Show the form for creating a new resource.

@@ -19,4 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/index', 'BoletaController@index');
-Route::post('/imprimir', 'BoletaController@imprimir');
+Route::post('/imprimirpagina', 'BoletaController@imprimirPagina');
+Route::post('/imprimirpdf', 'BoletaController@imprimirPdf');
+Route::post('/imprimirtexto', 'BoletaController@imprimirTexto');

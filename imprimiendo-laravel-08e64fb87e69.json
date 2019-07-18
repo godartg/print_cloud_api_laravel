@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "imprimiendo-laravel",
+  "private_key_id": "08e64fb87e6991d551a179136f15eef4864c8266",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtml8tpigq+LXj\niWFCNh5ggrJngStV0MZ1NgrXCVkuD79wIlfHJUJXUM5e5GkytaY9h0Jq7+THBmT8\nVZN7I5hP/5f1AeAUH9ag5iPl6YvQEzLmTO0GIjz8DIDk3xisj+4ls541r4hjWwV6\nRlDrMR7DOFxlLPpQOKqQZM7KRfP7YmfeUA7i7M+JZ1HQP9qI7S8r5dCv3cXOI30V\nZWxyMeMdy5Qjj3zXFFLKKleON8khY0KJBH5Meon2itzySNBy5/6bklssdH2l4r1M\nHrKktmgCu1jhZX3qHwNzjxi4WTjd2EciZtI60hMpGmyy4ObEhAKoLq1lcwP+CJAW\nDsT/BYwdAgMBAAECggEADXhxQrRGISF30Z5HFPFolYIGsFfaQjgnMhCdsjZYPGX9\n64hKqdn3BhnvzXapQAVOzy7n5S7UoGnbW6YTQcaPCsQRKTJ6Te1zhLwe1Hf1AJIA\nzNRyvttYwpEAzmGOQ1OOvc+sasuCSH1XVTfQDxPaaHj+2F3vVVq0R2x/DDx11E9b\nb7KCiYv+YhmkMLvWMqeycUOGqNH2cTe81tZqwt77m6a3GD6Y+KMeV5OmKXpIYTbh\nMJXuouMoZjTTUV5yNRJ9roPavaSQrmIpVHISpRlvFQngDSe5AdejZZ7hOWnq7FW+\nZ6DEIf+omGQW5VPIhiMPWfWerNgm3glwo9WCCPTjmQKBgQDeGu9JT8vpcyHbgd+D\nJF/14zUrLhLqBw65QWPFunZkRsmXh0PZ8yD+sYkbU3jeSGZ2sr/GGoVcKcDR0/Vz\n0pVFkY0yk49bnlxwiiqdrEbtWjTkiFX1Ji5D6Xn7tib7AOlcZN07maOCNn6eUJyA\nydpp3KfD3WCvKKV+A2xQxS9wOQKBgQDIGJWBZYrljb5UmJqQobWhcV4gtqHnqWu6\nMk8Fe+bQxttjMkDthdHTwLvULe/EwG7P93zghyVt955iJkD1Rh0LuZwu7Yd38Kb5\nMpkMCemi+739Sc5SLd1UVhp1FEMDfeE5ezDsb65t6Eq3a27Uz3PYWbS3ZJ1W2az9\nCpXGRaUzBQKBgQDSmzfLjJ8O/t1cCAqpkBRuVMRV7ZqBz69me1rgY69f5r/Br8Hn\nKWRgHnikMMKsBHskktrGPt+2ROFSFmrpKQXiseHx03pcpg2BqYI/gNzAtIjzK1RW\n4Z19SCcjR9YurO6bbglaOpWRI5ttA4NjnAQ/3bw3PfQwI5rJovVSoagaAQKBgQCb\nRChO3iJnehOkxT262SB9g+DMdaswfhCvzPXwhXJXstbuJEKpjNuC+t1FCdgxzjiu\ne5aVC4mJyUlHU/O3344OWRrOd1ZVRZHrcM29v7th0wJcFvdYYWqLVLz2+J//h6BK\n4ELYVNj/Q+8mYOEBlXCJAyLt488LY6GOQLZzwfssmQKBgHxMSiNjD2w6+qxo2Vf9\np3Q6PJOjDkAGHjVkp/eIDQshmzlL7t6hccSITqU9UFA2ldphFu6tZV7QBOEe6gHQ\nXP61Csck5fAhqlEkmI5vx74BKkrfti+zHUSF/qBFnI3iLH4K5AOxP+fOUffVxp0G\nltdvKz22CxxHy539ediBl+J6\n-----END PRIVATE KEY-----\n",
+  "client_email": "noveltie@imprimiendo-laravel.iam.gserviceaccount.com",
+  "client_id": "105258680925174020711",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/noveltie%40imprimiendo-laravel.iam.gserviceaccount.com"
+}
