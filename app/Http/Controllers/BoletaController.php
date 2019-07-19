@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Boleta;
 use Illuminate\Http\Request;
 use GoogleCloudPrint;
+use Illuminate\Support\Facades\Storage;
 
 class BoletaController extends Controller
 {
@@ -18,6 +19,7 @@ class BoletaController extends Controller
         
         return View('index');
     }
+
     /**
      * Printing HTML from an URL
      */
@@ -36,12 +38,15 @@ class BoletaController extends Controller
      */
     public function imprimirPdf()
     {
-        
+        $url = Storage::url('public/100-JEAN-CARLOS-ACNAPURI.pdf');
+        //return $url;
+        //$contents = Storage::files('/public/100-JEAN-CARLOS-ACNAPURI.pdf');
         $printerId = '2147c452-5582-a70c-a44d-a65f8fc99757';
         GoogleCloudPrint::asPdf()
-        ->file('storage/app/public/iso-9001.pdf')
-        ->range(2, 3)
+        ->file('storage/100-JEAN-CARLOS-ACNAPURI.pdf')
+        ->range(1, 1)
         ->printer($printerId)
+        ->marginsInCentimeters(5, 5, 5, 5)
         ->send();
         return View('index');
     }

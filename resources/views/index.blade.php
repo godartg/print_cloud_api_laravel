@@ -24,6 +24,7 @@
         {{--<input type="hidden" name="_method" value="PUT">--}}
         <button>Imprimir un texto demo</button>
     </form>
-
+    
+    
 </body>
 </html>

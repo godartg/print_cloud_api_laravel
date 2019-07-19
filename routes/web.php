@@ -22,3 +22,7 @@ Route::get('/index', 'BoletaController@index');
 Route::post('/imprimirpagina', 'BoletaController@imprimirPagina');
 Route::post('/imprimirpdf', 'BoletaController@imprimirPdf');
 Route::post('/imprimirtexto', 'BoletaController@imprimirTexto');
+
+Route::get('/descarga/{file}', function($file){
+    return Storage::response("descarga/$file");
+}); 
